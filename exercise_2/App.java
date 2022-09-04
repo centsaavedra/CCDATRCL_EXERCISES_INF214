@@ -19,10 +19,10 @@ class Main {
         Playlist.add("Centimeter");
 
         // Adds a new song at the front of the Playlist
-        Playlist.addFirst("I Don't love you");
+        Playlist.addFirst("Bawat Piyesa");
 
         // Adds a new song at the end of the Playlist
-        Playlist.addLast("Centimeter");
+        Playlist.addLast("Muni Muni");
 
         // Display node at the front in the LinkedList
         System.out.println(Playlist.get(0));
