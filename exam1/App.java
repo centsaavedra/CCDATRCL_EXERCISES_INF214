@@ -6,13 +6,14 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
- System.out.println("Array");
- System.out.println("======================================================");
+        
+        System.out.println("======================================================");
+        System.out.println("ARRAY");
     //Create an array of characters of your SURNAME.
            char[] SurName = { 'S', 'A', 'A', 'V', 'E', 'D', 'R', 'A' };
 
     //Print each character of your SURNAME on each line.
-            System.out.println("My Surname.)");
+            System.out.println("My Surname.");
         for (int i = 0; i < SurName.length; i++) {
             System.out.println(SurName[i]);
         }
@@ -31,8 +32,8 @@ public class App {
         System.out.println(SurName[i]);
         }
         
- System.out.println("Linked List");
- System.out.println("======================================================");
+        System.out.println("======================================================");
+        System.out.println("LINKED LIST");
     //Create a Linked list of the last six numbers of your STUDENT NUMBER.
     LinkedList<String> StudentNumber = new LinkedList<>();
 
@@ -43,7 +44,7 @@ public class App {
         StudentNumber.add("3");
         StudentNumber.add("4");
 
-        System.out.println("My StudentNumber.");
+        System.out.println("My Student Number.");
         System.out.println(StudentNumber);
 
     //Add an asterisk (*) to the head/front of the Linked list.
@@ -65,11 +66,12 @@ public class App {
         StudentNumber.remove(0);
     
     //Print The LinkedList.
-    System.out.println("Removed First Charcter and Replace the Last character of My StudentNumber.");
+        System.out.println("Removed First Charcter and Replace the Last character of My StudentNumber.");
         System.out.println(StudentNumber);
     
- System.out.println("Stack");
- System.out.println("======================================================");   
+
+        System.out.println("======================================================");   
+        System.out.println("STACK");
     //Create a Stack of characters of your SURNAME.
         Stack<String> SURNAME = new Stack<>();
 
