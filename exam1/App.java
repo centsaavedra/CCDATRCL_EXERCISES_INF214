@@ -6,33 +6,33 @@ public class App {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-    // ARRAYS
-    // ======================================================
+ System.out.println("Array");
+ System.out.println("======================================================");
     //Create an array of characters of your SURNAME.
            char[] SurName = { 'S', 'A', 'A', 'V', 'E', 'D', 'R', 'A' };
 
     //Print each character of your SURNAME on each line.
-            System.out.println("My Surname (Array)");
+            System.out.println("My Surname.)");
         for (int i = 0; i < SurName.length; i++) {
             System.out.println(SurName[i]);
         }
 
     //Print the first character of your SURNAME.
-        System.out.println("The First Character of my Surname (Array) ");
+        System.out.println("The First Character of my Surname.");
         System.out.println(SurName[0]);
 
     //Print the last character of your SURNAME.
-        System.out.println("The Last Character of my Surname (Array) ");
+        System.out.println("The Last Character of my Surname.");
         System.out.println(SurName[7]);
 
     //Print the character of your SURNAME in reverse order.
-        System.out.println("My Surname in reverse order (Array) " );
+        System.out.println("My Surname in reverse order." );
         for (int i = SurName.length - 1; i >= 0; i--) {
         System.out.println(SurName[i]);
         }
         
-    // Linked List
-    // ======================================================
+ System.out.println("Linked List");
+ System.out.println("======================================================");
     //Create a Linked list of the last six numbers of your STUDENT NUMBER.
     LinkedList<String> StudentNumber = new LinkedList<>();
 
@@ -43,7 +43,7 @@ public class App {
         StudentNumber.add("3");
         StudentNumber.add("4");
 
-        System.out.println("My StudentNumber (Linked List)");
+        System.out.println("My StudentNumber.");
         System.out.println(StudentNumber);
 
     //Add an asterisk (*) to the head/front of the Linked list.
@@ -53,11 +53,11 @@ public class App {
         StudentNumber.addLast("*");
         
     //Print the last character of the Linked list.
-        System.out.println("My StudentNumber Add (*) to head/front and tail/end (Linked List)");
+        System.out.println("My StudentNumber Add (*) to head/front and tail/end.");
         System.out.println(StudentNumber);
 
     //Print the last character of the Linked list.
-        System.out.println("My Last Charcter (Linked List)");
+        System.out.println("My Last Charcter");
         System.out.println(StudentNumber.get(7));
 
     //Replace the last character of the Linked list with the exclamation symbol (!).
@@ -65,11 +65,11 @@ public class App {
         StudentNumber.remove(0);
     
     //Print The LinkedList.
-    System.out.println("Removed First Charcter and Replace the Last character of My StudentNumber (Linked List)");
+    System.out.println("Removed First Charcter and Replace the Last character of My StudentNumber.");
         System.out.println(StudentNumber);
     
-    // Stack
-    // ======================================================    
+ System.out.println("Stack");
+ System.out.println("======================================================");   
     //Create a Stack of characters of your SURNAME.
         Stack<String> SURNAME = new Stack<>();
 
@@ -83,11 +83,11 @@ public class App {
         SURNAME.push("A");
 
     //Print the Stack
-        System.out.println("My SURNAME (Stack)");
+        System.out.println("My SURNAME.");
         System.out.println(SURNAME);
 
     //Add a "INF214" to the stack
-    System.out.println("My SURNAME Add INF214 (Stack)");
+    System.out.println("My SURNAME Add INF214.");
         SURNAME.push(" ");
         SURNAME.push("I");
         SURNAME.push("N");
@@ -124,7 +124,7 @@ public class App {
         SURNAME.push("4");
 
     //Print the Stack
-    System.out.println("My SURNAME Removed INF214 and Add CCDATRCL-INF214 (Stack)");
+    System.out.println("My SURNAME Removed INF214 and Add CCDATRCL-INF214.");
         System.out.println(SURNAME);
 
     }
